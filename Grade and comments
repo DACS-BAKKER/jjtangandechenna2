@@ -1,0 +1,20 @@
+Grade and comments
+
+code:
+- a class like fractionUI should not run itself.  A calculator is run by a calculator runner.  You should have a constructor in the class and that is
+what shold be called in the run (or main) method.
+- you only need this if there is ambiguity.
+- Your fraction code looks good, but it would be nice to recognize whole numbers.
+
+
+
+GUI
+- I cannot get this program to run.  I get a GUI but it is garbled output.  This seems non-functional
+- I am now using your text input and output for fraction.  This is working!
+- You cannot handle the input of a whole number.
+- why not reduce the fraction at construction time.  This would save repeated calls to reduce.
+
+Grade:  check
+You implemented the fraction class as expected, but you come up with a GUI that does not work and a console program that works fine.
+That is all a bit short of where I would have like to see you get.
+
